@@ -140,7 +140,7 @@ if(ENABLE_LTO)
     endif()
 endif()
 
-option(BUILD_TESTING "Build the testing tree." ON)
+option(BUILD_TESTING "Build the testing tree." OFF)
 
 find_package(ECM QUIET NO_MODULE)
 if(NOT ECM_FOUND)
